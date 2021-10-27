@@ -8,6 +8,7 @@
 ```
 pip install beautifulsoup4
 pip install pycoingecko
+pip install lxml
  ```
 
 # User Manual

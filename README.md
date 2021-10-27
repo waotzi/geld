@@ -28,3 +28,39 @@ the ex change column should also be filled with 0 if you have made a new row, ot
 for convenience i recommend simply runnig the `./run.sh` script, this will run the python script and then launch the money.xml file with gnumeric
 
 ![screenshot](screen.jpg)
+
+## gnumeric columns
+column 0
+for you to type in any info you like
+
+column 1 (coin)
+the coin with the exact api id provided by coingecko
+
+column 2 (units)
+the amount you have of the coin
+
+column 3 (ex rate)
+add 0 to each row that has a coin compatible with coingecko
+is updated automatically with the python script
+
+column 4 (usd)
+the units you have * the ex rate
+
+coulmn 5 (euro)
+the usd value / the ex rate of euro to usd
+
+column 6 (ex change)
+the exchange rate difference between the last time you ran the python script
+
+column 7 (dollar change)
+the ex change differece times the units you have
+
+column 8 (euro change)
+the usd chage / the ex rate of euro to usd
+
+column 9 (sub-total)
+sum up your catagorized crypto asset values
+
+
+
+

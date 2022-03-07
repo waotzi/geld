@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <gnm:Workbook xmlns:gnm="http://www.gnumeric.org/v10.dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gnumeric.org/v9.xsd">
-<gnm:Version Epoch="1" Full="1.12.50" Major="12" Minor="50"/>
+<gnm:Version Epoch="1" Full="1.12.51" Major="12" Minor="51"/>
 <gnm:Attributes>
 <gnm:Attribute>
 <gnm:name>WorkbookView::show_horizontal_scrollbar</gnm:name>
@@ -25,7 +25,7 @@
 </gnm:Attributes>
 <office:document-meta office:version="1.2" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink">
 <office:meta>
-<dc:date>2021-10-27T14:18:06Z</dc:date>
+<dc:date>2022-03-07T10:48:00Z</dc:date>
 <meta:creation-date>2021-10-12T21:01:09Z</meta:creation-date>
 </office:meta>
 </office:document-meta>
@@ -38,7 +38,7 @@
 <gnm:Sheet DisplayFormulas="0" DisplayOutlines="1" GridColor="0:0:0" HideColHeader="0" HideGrid="0" HideRowHeader="0" HideZero="0" OutlineSymbolsBelow="1" OutlineSymbolsRight="1" Visibility="GNM_SHEET_VISIBILITY_VISIBLE">
 <gnm:Name>Sheet1</gnm:Name>
 <gnm:MaxCol>10</gnm:MaxCol>
-<gnm:MaxRow>49</gnm:MaxRow>
+<gnm:MaxRow>25</gnm:MaxRow>
 <gnm:Zoom>1</gnm:Zoom>
 <gnm:Names>
 <gnm:Name>
@@ -133,7 +133,17 @@
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="1" endRow="20" startCol="0" startRow="20">
+<gnm:StyleRegion endCol="0" endRow="22" startCol="0" startRow="20">
+<gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="General" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
+<gnm:Font Bold="1" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
+</gnm:Style>
+</gnm:StyleRegion>
+<gnm:StyleRegion endCol="1" endRow="23" startCol="0" startRow="23">
+<gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="General" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
+<gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
+</gnm:Style>
+</gnm:StyleRegion>
+<gnm:StyleRegion endCol="1" endRow="24" startCol="0" startRow="24">
 <gnm:Style Back="9999:3333:6666" Fore="FFFF:CCCC:9999" Format="General" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="1" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 <gnm:StyleBorder>
@@ -142,7 +152,7 @@
 </gnm:StyleBorder>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="1" endRow="21" startCol="0" startRow="21">
+<gnm:StyleRegion endCol="1" endRow="25" startCol="0" startRow="25">
 <gnm:Style Back="9999:3333:6666" Fore="FFFF:CCCC:9999" Format="General" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="1" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="1" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 <gnm:StyleBorder>
@@ -150,27 +160,32 @@
 </gnm:StyleBorder>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="1" endRow="23" startCol="0" startRow="22">
+<gnm:StyleRegion endCol="1" endRow="27" startCol="0" startRow="26">
 <gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="General" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="1" endRow="24" startCol="0" startRow="24">
+<gnm:StyleRegion endCol="1" endRow="28" startCol="0" startRow="28">
 <gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="0.00" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="1" endRow="65506" startCol="0" startRow="25">
+<gnm:StyleRegion endCol="1" endRow="65510" startCol="0" startRow="29">
 <gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="General" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="5" endRow="65508" startCol="0" startRow="65507">
+<gnm:StyleRegion endCol="5" endRow="65512" startCol="0" startRow="65511">
 <gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="General" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="255" endRow="65535" startCol="0" startRow="65509">
+<gnm:StyleRegion endCol="255" endRow="65535" startCol="0" startRow="65513">
+<gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="General" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
+<gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
+</gnm:Style>
+</gnm:StyleRegion>
+<gnm:StyleRegion endCol="1" endRow="22" startCol="1" startRow="20">
 <gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="General" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
@@ -183,12 +198,12 @@
 </gnm:StyleBorder>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="3" endRow="19" startCol="2" startRow="1">
+<gnm:StyleRegion endCol="3" endRow="23" startCol="2" startRow="1">
 <gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="0.000" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="3" endRow="20" startCol="2" startRow="20">
+<gnm:StyleRegion endCol="3" endRow="24" startCol="2" startRow="24">
 <gnm:Style Back="9999:3333:6666" Fore="FFFF:CCCC:9999" Format="0.000" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="1" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 <gnm:StyleBorder>
@@ -197,7 +212,7 @@
 </gnm:StyleBorder>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="3" endRow="21" startCol="2" startRow="21">
+<gnm:StyleRegion endCol="3" endRow="25" startCol="2" startRow="25">
 <gnm:Style Back="9999:3333:6666" Fore="FFFF:CCCC:9999" Format="0.000" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="1" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="1" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 <gnm:StyleBorder>
@@ -205,7 +220,7 @@
 </gnm:StyleBorder>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="3" endRow="65506" startCol="2" startRow="22">
+<gnm:StyleRegion endCol="3" endRow="65510" startCol="2" startRow="26">
 <gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="0.000" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
@@ -218,12 +233,12 @@
 </gnm:StyleBorder>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="4" endRow="19" startCol="4" startRow="1">
+<gnm:StyleRegion endCol="4" endRow="23" startCol="4" startRow="1">
 <gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="$0.00" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="4" endRow="20" startCol="4" startRow="20">
+<gnm:StyleRegion endCol="4" endRow="24" startCol="4" startRow="24">
 <gnm:Style Back="9999:3333:6666" Fore="FFFF:CCCC:9999" Format="$0.00" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="1" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 <gnm:StyleBorder>
@@ -232,7 +247,7 @@
 </gnm:StyleBorder>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="4" endRow="21" startCol="4" startRow="21">
+<gnm:StyleRegion endCol="4" endRow="25" startCol="4" startRow="25">
 <gnm:Style Back="9999:3333:6666" Fore="FFFF:CCCC:9999" Format="$0.00" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="1" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="1" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 <gnm:StyleBorder>
@@ -240,7 +255,7 @@
 </gnm:StyleBorder>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="4" endRow="65506" startCol="4" startRow="22">
+<gnm:StyleRegion endCol="4" endRow="65510" startCol="4" startRow="26">
 <gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="$0.00" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
@@ -253,12 +268,12 @@
 </gnm:StyleBorder>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="5" endRow="19" startCol="5" startRow="1">
+<gnm:StyleRegion endCol="5" endRow="23" startCol="5" startRow="1">
 <gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="0.00 [$€-1]" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="5" endRow="20" startCol="5" startRow="20">
+<gnm:StyleRegion endCol="5" endRow="24" startCol="5" startRow="24">
 <gnm:Style Back="9999:3333:6666" Fore="FFFF:CCCC:9999" Format="0.00 [$€-1]" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="1" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 <gnm:StyleBorder>
@@ -267,7 +282,7 @@
 </gnm:StyleBorder>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="5" endRow="21" startCol="5" startRow="21">
+<gnm:StyleRegion endCol="5" endRow="25" startCol="5" startRow="25">
 <gnm:Style Back="9999:3333:6666" Fore="FFFF:CCCC:9999" Format="0.00 [$€-1]" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="1" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="1" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 <gnm:StyleBorder>
@@ -275,7 +290,7 @@
 </gnm:StyleBorder>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="5" endRow="65506" startCol="5" startRow="22">
+<gnm:StyleRegion endCol="5" endRow="65510" startCol="5" startRow="26">
 <gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="0.00 [$€-1]" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
@@ -288,7 +303,7 @@
 </gnm:StyleBorder>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="6" endRow="19" startCol="6" startRow="1">
+<gnm:StyleRegion endCol="6" endRow="23" startCol="6" startRow="1">
 <gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="0.00;[Red]0.00" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 <gnm:StyleBorder>
@@ -296,7 +311,7 @@
 </gnm:StyleBorder>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="6" endRow="20" startCol="6" startRow="20">
+<gnm:StyleRegion endCol="6" endRow="24" startCol="6" startRow="24">
 <gnm:Style Back="9999:3333:6666" Fore="FFFF:CCCC:9999" Format="0.00;[Red]0.00" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="1" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="1" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 <gnm:StyleBorder>
@@ -306,7 +321,7 @@
 </gnm:StyleBorder>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="6" endRow="21" startCol="6" startRow="21">
+<gnm:StyleRegion endCol="6" endRow="25" startCol="6" startRow="25">
 <gnm:Style Back="9999:3333:6666" Fore="FFFF:CCCC:9999" Format="0.00;[Red]0.00" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="1" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="1" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 <gnm:StyleBorder>
@@ -315,7 +330,7 @@
 </gnm:StyleBorder>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="6" endRow="65508" startCol="6" startRow="22">
+<gnm:StyleRegion endCol="6" endRow="65512" startCol="6" startRow="26">
 <gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="0.00;[Red]0.00" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
@@ -328,12 +343,12 @@
 </gnm:StyleBorder>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="7" endRow="19" startCol="7" startRow="1">
+<gnm:StyleRegion endCol="7" endRow="23" startCol="7" startRow="1">
 <gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="$0.00;[Red]$0.00" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="8" endRow="20" startCol="7" startRow="20">
+<gnm:StyleRegion endCol="8" endRow="24" startCol="7" startRow="24">
 <gnm:Style Back="9999:3333:6666" Fore="0:FFFF:0" Format="0.00;[Red]0.00" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="1" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="1" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 <gnm:StyleBorder>
@@ -343,7 +358,7 @@
 </gnm:StyleBorder>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="7" endRow="21" startCol="7" startRow="21">
+<gnm:StyleRegion endCol="7" endRow="25" startCol="7" startRow="25">
 <gnm:Style Back="9999:3333:6666" Fore="FFFF:CCCC:9999" Format="$0.00;[Red]$0.00" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="1" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="1" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 <gnm:StyleBorder>
@@ -351,7 +366,7 @@
 </gnm:StyleBorder>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="7" endRow="65508" startCol="7" startRow="22">
+<gnm:StyleRegion endCol="7" endRow="65512" startCol="7" startRow="26">
 <gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="$0.00;[Red]$0.00" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
@@ -364,12 +379,12 @@
 </gnm:StyleBorder>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="8" endRow="19" startCol="8" startRow="1">
+<gnm:StyleRegion endCol="8" endRow="23" startCol="8" startRow="1">
 <gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="[$€-2] 0.00;[Red][$€-2] 0.00" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="8" endRow="21" startCol="8" startRow="21">
+<gnm:StyleRegion endCol="8" endRow="25" startCol="8" startRow="25">
 <gnm:Style Back="9999:3333:6666" Fore="FFFF:CCCC:9999" Format="[$€-2] 0.00;[Red][$€-2] 0.00" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="1" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="1" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 <gnm:StyleBorder>
@@ -377,7 +392,7 @@
 </gnm:StyleBorder>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="8" endRow="65508" startCol="8" startRow="22">
+<gnm:StyleRegion endCol="8" endRow="65512" startCol="8" startRow="26">
 <gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="[$€-2] 0.00;[Red][$€-2] 0.00" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
@@ -392,7 +407,7 @@
 </gnm:StyleBorder>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="9" endRow="19" startCol="9" startRow="1">
+<gnm:StyleRegion endCol="9" endRow="23" startCol="9" startRow="1">
 <gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="0 [$€-1]" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 <gnm:StyleBorder>
@@ -401,7 +416,7 @@
 </gnm:StyleBorder>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="9" endRow="20" startCol="9" startRow="20">
+<gnm:StyleRegion endCol="9" endRow="24" startCol="9" startRow="24">
 <gnm:Style Back="9999:3333:6666" Fore="FFFF:CCCC:9999" Format="0 [$€-1]" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="1" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 <gnm:StyleBorder>
@@ -412,7 +427,7 @@
 </gnm:StyleBorder>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="9" endRow="21" startCol="9" startRow="21">
+<gnm:StyleRegion endCol="9" endRow="25" startCol="9" startRow="25">
 <gnm:Style Back="9999:3333:6666" Fore="FFFF:CCCC:9999" Format="0.00;[Red]0.00" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="1" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="1" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 <gnm:StyleBorder>
@@ -422,12 +437,12 @@
 </gnm:StyleBorder>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="9" endRow="65506" startCol="9" startRow="22">
+<gnm:StyleRegion endCol="9" endRow="65510" startCol="9" startRow="26">
 <gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="0 [$€-1]" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="255" endRow="65508" startCol="9" startRow="65507">
+<gnm:StyleRegion endCol="255" endRow="65512" startCol="9" startRow="65511">
 <gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="General" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
@@ -437,17 +452,17 @@
 <gnm:Font Bold="1" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="10" endRow="20" startCol="10" startRow="1">
+<gnm:StyleRegion endCol="10" endRow="24" startCol="10" startRow="1">
 <gnm:Style Back="8080:0:8080" Fore="0:0:0" Format="General" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="10" endRow="21" startCol="10" startRow="21">
+<gnm:StyleRegion endCol="10" endRow="25" startCol="10" startRow="25">
 <gnm:Style Back="8080:0:8080" Fore="0:0:0" Format="General" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="1" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="10" endRow="65506" startCol="10" startRow="22">
+<gnm:StyleRegion endCol="10" endRow="65510" startCol="10" startRow="26">
 <gnm:Style Back="8080:0:8080" Fore="0:0:0" Format="General" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
@@ -457,17 +472,17 @@
 <gnm:Font Bold="1" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="255" endRow="20" startCol="11" startRow="1">
+<gnm:StyleRegion endCol="255" endRow="24" startCol="11" startRow="1">
 <gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="General" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="255" endRow="21" startCol="11" startRow="21">
+<gnm:StyleRegion endCol="255" endRow="25" startCol="11" startRow="25">
 <gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="General" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="1" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
 </gnm:StyleRegion>
-<gnm:StyleRegion endCol="255" endRow="65506" startCol="11" startRow="22">
+<gnm:StyleRegion endCol="255" endRow="65510" startCol="11" startRow="26">
 <gnm:Style Back="FFFF:FFFF:FFFF" Fore="0:0:0" Format="General" HAlign="GNM_HALIGN_GENERAL" Hidden="0" Indent="0" Locked="1" PatternColor="0:0:0" Rotation="0" Shade="0" ShrinkToFit="0" VAlign="GNM_VALIGN_BOTTOM" WrapText="0">
 <gnm:Font Bold="0" Italic="0" Script="0" StrikeThrough="0" Underline="0" Unit="10">Sans</gnm:Font>
 </gnm:Style>
@@ -484,8 +499,8 @@
 <gnm:ColInfo HardSize="1" No="10" Unit="35.25"/>
 </gnm:Cols>
 <gnm:Rows DefaultSizePts="13.5"/>
-<gnm:Selections CursorCol="2" CursorRow="4">
-<gnm:Selection endCol="2" endRow="4" startCol="2" startRow="4"/>
+<gnm:Selections CursorCol="2" CursorRow="23">
+<gnm:Selection endCol="2" endRow="23" startCol="2" startRow="23"/>
 </gnm:Selections>
 <gnm:Cells>
 <gnm:Cell Col="1" Row="0" ValueType="60">coin</gnm:Cell>
@@ -498,100 +513,118 @@
 <gnm:Cell Col="8" Row="0" ValueType="60">euro change</gnm:Cell>
 <gnm:Cell Col="9" Row="0" ValueType="60">sub-total</gnm:Cell>
 <gnm:Cell Col="1" Row="1" ValueType="60">tether-eurt</gnm:Cell>
-<gnm:Cell Col="3" Row="1" ValueType="40">1.16</gnm:Cell>
+<gnm:Cell Col="3" Row="1" ValueType="40">1.08</gnm:Cell>
 <gnm:Cell Col="4" Row="1" ValueType="40">1</gnm:Cell>
 <gnm:Cell Col="0" Row="3" ValueType="60">wallets</gnm:Cell>
 <gnm:Cell Col="9" Row="3">=sum(F5:F7)</gnm:Cell>
 <gnm:Cell Col="1" Row="4" ValueType="60">beam</gnm:Cell>
 <gnm:Cell Col="2" Row="4" ValueType="40">555</gnm:Cell>
-<gnm:Cell Col="3" Row="4" ValueType="40">0.703366</gnm:Cell>
+<gnm:Cell Col="3" Row="4" ValueType="40">0.301909</gnm:Cell>
 <gnm:Cell Col="4" ExprID="1" Row="4">=C5*D5</gnm:Cell>
 <gnm:Cell Col="5" ExprID="2" Row="4">=E5/$D$2</gnm:Cell>
-<gnm:Cell Col="6" Row="4" ValueType="40">-0.00012399999999990197</gnm:Cell>
+<gnm:Cell Col="6" Row="4" ValueType="40">-0.0004050000000000442</gnm:Cell>
 <gnm:Cell Col="7" ExprID="3" Row="4">=C5*G5</gnm:Cell>
 <gnm:Cell Col="8" ExprID="2" Row="4"/>
 <gnm:Cell Col="1" Row="5" ValueType="60">cardano</gnm:Cell>
 <gnm:Cell Col="2" Row="5" ValueType="40">111</gnm:Cell>
-<gnm:Cell Col="3" Row="5" ValueType="40">1.97</gnm:Cell>
+<gnm:Cell Col="3" Row="5" ValueType="40">0.814484</gnm:Cell>
 <gnm:Cell Col="4" ExprID="1" Row="5"/>
 <gnm:Cell Col="5" ExprID="2" Row="5"/>
-<gnm:Cell Col="6" Row="5" ValueType="40">0.0</gnm:Cell>
+<gnm:Cell Col="6" Row="5" ValueType="40">-2.199999999996649e-05</gnm:Cell>
 <gnm:Cell Col="7" ExprID="3" Row="5"/>
 <gnm:Cell Col="8" ExprID="2" Row="5"/>
 <gnm:Cell Col="1" Row="6" ValueType="60">grin</gnm:Cell>
 <gnm:Cell Col="2" Row="6" ValueType="40">333</gnm:Cell>
-<gnm:Cell Col="3" Row="6" ValueType="40">0.422615</gnm:Cell>
+<gnm:Cell Col="3" Row="6" ValueType="40">0.140614</gnm:Cell>
 <gnm:Cell Col="4" ExprID="1" Row="6"/>
 <gnm:Cell Col="5" ExprID="2" Row="6"/>
-<gnm:Cell Col="6" Row="6" ValueType="40">-0.0006439999999999779</gnm:Cell>
+<gnm:Cell Col="6" Row="6" ValueType="40">-8.000000000008e-06</gnm:Cell>
 <gnm:Cell Col="7" ExprID="3" Row="6"/>
 <gnm:Cell Col="8" ExprID="2" Row="6"/>
 <gnm:Cell Col="0" Row="8" ValueType="60">polygon</gnm:Cell>
-<gnm:Cell Col="9" Row="8">=sum(F10:F11)</gnm:Cell>
+<gnm:Cell Col="9" ExprID="4" Row="8">=sum(F10:F11)</gnm:Cell>
 <gnm:Cell Col="0" Row="9" ValueType="60">kogecoin</gnm:Cell>
 <gnm:Cell Col="1" Row="9" ValueType="60">kogecoin</gnm:Cell>
 <gnm:Cell Col="2" Row="9" ValueType="40">22</gnm:Cell>
-<gnm:Cell Col="3" Row="9" ValueType="40">0.379434</gnm:Cell>
+<gnm:Cell Col="3" Row="9" ValueType="40">0.02539167</gnm:Cell>
 <gnm:Cell Col="4" ExprID="1" Row="9"/>
 <gnm:Cell Col="5" ExprID="2" Row="9"/>
-<gnm:Cell Col="6" Row="9" ValueType="40">2.6999999999999247e-05</gnm:Cell>
+<gnm:Cell Col="6" Row="9" ValueType="40">0.0</gnm:Cell>
 <gnm:Cell Col="7" ExprID="3" Row="9"/>
 <gnm:Cell Col="8" ExprID="2" Row="9"/>
 <gnm:Cell Col="0" Row="10" ValueType="60">matic</gnm:Cell>
 <gnm:Cell Col="1" Row="10" ValueType="60">matic-network</gnm:Cell>
 <gnm:Cell Col="2" Row="10" ValueType="40">22</gnm:Cell>
-<gnm:Cell Col="3" Row="10" ValueType="40">1.85</gnm:Cell>
+<gnm:Cell Col="3" Row="10" ValueType="40">1.42</gnm:Cell>
 <gnm:Cell Col="4" ExprID="1" Row="10"/>
 <gnm:Cell Col="5" ExprID="2" Row="10"/>
-<gnm:Cell Col="6" Row="10" ValueType="40">0.010000000000000009</gnm:Cell>
+<gnm:Cell Col="6" Row="10" ValueType="40">0.0</gnm:Cell>
 <gnm:Cell Col="7" ExprID="3" Row="10"/>
 <gnm:Cell Col="8" ExprID="2" Row="10"/>
 <gnm:Cell Col="0" Row="12" ValueType="60">bsc network</gnm:Cell>
-<gnm:Cell Col="9" Row="12">=sum(F14:F15)</gnm:Cell>
+<gnm:Cell Col="9" ExprID="4" Row="12"/>
 <gnm:Cell Col="0" Row="13" ValueType="60">bnb</gnm:Cell>
 <gnm:Cell Col="1" Row="13" ValueType="60">binancecoin</gnm:Cell>
 <gnm:Cell Col="2" Row="13" ValueType="40">0.111</gnm:Cell>
-<gnm:Cell Col="3" Row="13" ValueType="40">453.63</gnm:Cell>
+<gnm:Cell Col="3" Row="13" ValueType="40">373.99</gnm:Cell>
 <gnm:Cell Col="4" ExprID="1" Row="13"/>
 <gnm:Cell Col="5" ExprID="2" Row="13"/>
-<gnm:Cell Col="6" Row="13" ValueType="40">0.2400000000000091</gnm:Cell>
+<gnm:Cell Col="6" Row="13" ValueType="40">-0.07999999999998408</gnm:Cell>
 <gnm:Cell Col="7" ExprID="3" Row="13"/>
 <gnm:Cell Col="8" ExprID="2" Row="13"/>
 <gnm:Cell Col="0" Row="14" ValueType="60">doge</gnm:Cell>
 <gnm:Cell Col="1" Row="14" ValueType="60">dogecoin</gnm:Cell>
 <gnm:Cell Col="2" Row="14" ValueType="40">111</gnm:Cell>
-<gnm:Cell Col="3" Row="14" ValueType="40">0.236335</gnm:Cell>
+<gnm:Cell Col="3" Row="14" ValueType="40">0.120069</gnm:Cell>
 <gnm:Cell Col="4" ExprID="1" Row="14"/>
 <gnm:Cell Col="5" ExprID="2" Row="14"/>
-<gnm:Cell Col="6" Row="14" ValueType="40">0.0005079999999999807</gnm:Cell>
+<gnm:Cell Col="6" Row="14" ValueType="40">2.9999999999891225e-06</gnm:Cell>
 <gnm:Cell Col="7" ExprID="3" Row="14"/>
 <gnm:Cell Col="8" ExprID="2" Row="14"/>
 <gnm:Cell Col="0" Row="16" ValueType="60">ethereum</gnm:Cell>
-<gnm:Cell Col="9" Row="16">=sum(F18:F19)</gnm:Cell>
+<gnm:Cell Col="9" ExprID="4" Row="16"/>
 <gnm:Cell Col="0" Row="17" ValueType="60">eth</gnm:Cell>
 <gnm:Cell Col="1" Row="17" ValueType="60">ethereum</gnm:Cell>
 <gnm:Cell Col="2" Row="17" ValueType="40">0.002222</gnm:Cell>
-<gnm:Cell Col="3" Row="17" ValueType="40">3992.37</gnm:Cell>
+<gnm:Cell Col="3" Row="17" ValueType="40">2530.92</gnm:Cell>
 <gnm:Cell Col="4" ExprID="1" Row="17"/>
 <gnm:Cell Col="5" ExprID="2" Row="17"/>
-<gnm:Cell Col="6" Row="17" ValueType="40">2.900000000000091</gnm:Cell>
+<gnm:Cell Col="6" Row="17" ValueType="40">0.0</gnm:Cell>
 <gnm:Cell Col="7" ExprID="3" Row="17"/>
 <gnm:Cell Col="8" ExprID="2" Row="17"/>
 <gnm:Cell Col="0" Row="18" ValueType="60">shib</gnm:Cell>
 <gnm:Cell Col="1" Row="18" ValueType="60">shiba-inu</gnm:Cell>
 <gnm:Cell Col="2" Row="18" ValueType="40">6666666</gnm:Cell>
-<gnm:Cell Col="3" Row="18" ValueType="40">6.344e-05</gnm:Cell>
+<gnm:Cell Col="3" Row="18" ValueType="40">2.298e-05</gnm:Cell>
 <gnm:Cell Col="4" ExprID="1" Row="18"/>
 <gnm:Cell Col="5" ExprID="2" Row="18"/>
-<gnm:Cell Col="6" Row="18" ValueType="40">5.999999999999604e-08</gnm:Cell>
+<gnm:Cell Col="6" Row="18" ValueType="40">0.0</gnm:Cell>
 <gnm:Cell Col="7" ExprID="3" Row="18"/>
 <gnm:Cell Col="8" ExprID="2" Row="18"/>
-<gnm:Cell Col="0" Row="20" ValueType="60">Change Total</gnm:Cell>
-<gnm:Cell Col="7" Row="20">=sum(H5:H19)</gnm:Cell>
-<gnm:Cell Col="8" Row="20">=sum(I5:I19)</gnm:Cell>
-<gnm:Cell Col="0" Row="21" ValueType="60">Total</gnm:Cell>
-<gnm:Cell Col="4" Row="21">=sum(E5:E19)</gnm:Cell>
+<gnm:Cell Col="0" Row="20" ValueType="60">forex</gnm:Cell>
+<gnm:Cell Col="9" ExprID="5" Row="20">=sum(F22:F23)</gnm:Cell>
+<gnm:Cell Col="1" Row="21" ValueType="60">nok</gnm:Cell>
+<gnm:Cell Col="2" Row="21" ValueType="40">100</gnm:Cell>
+<gnm:Cell Col="3" Row="21" ValueType="40">0.11111450009150245</gnm:Cell>
+<gnm:Cell Col="4" ExprID="1" Row="21"/>
 <gnm:Cell Col="5" ExprID="2" Row="21"/>
+<gnm:Cell Col="6" Row="21" ValueType="40">0.0</gnm:Cell>
+<gnm:Cell Col="7" ExprID="3" Row="21"/>
+<gnm:Cell Col="8" ExprID="2" Row="21"/>
+<gnm:Cell Col="1" Row="22" ValueType="60">sek</gnm:Cell>
+<gnm:Cell Col="2" Row="22" ValueType="40">100</gnm:Cell>
+<gnm:Cell Col="3" Row="22" ValueType="40">0.10125538518552833</gnm:Cell>
+<gnm:Cell Col="4" ExprID="1" Row="22"/>
+<gnm:Cell Col="5" ExprID="2" Row="22"/>
+<gnm:Cell Col="6" Row="22" ValueType="40">0.0</gnm:Cell>
+<gnm:Cell Col="7" ExprID="3" Row="22"/>
+<gnm:Cell Col="8" ExprID="2" Row="22"/>
+<gnm:Cell Col="0" Row="24" ValueType="60">Change Total</gnm:Cell>
+<gnm:Cell Col="7" Row="24">=sum(H5:H19)</gnm:Cell>
+<gnm:Cell Col="8" Row="24">=sum(I5:I19)</gnm:Cell>
+<gnm:Cell Col="0" Row="25" ValueType="60">Total</gnm:Cell>
+<gnm:Cell Col="4" Row="25">=sum(E5:E19)</gnm:Cell>
+<gnm:Cell Col="5" ExprID="2" Row="25"/>
 </gnm:Cells>
 <gnm:SheetLayout TopLeft="A2">
 <gnm:FreezePanes FrozenTopLeft="A1" UnfrozenTopLeft="A2"/>

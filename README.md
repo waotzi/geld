@@ -9,6 +9,7 @@
 pip install beautifulsoup4
 pip install pycoingecko
 pip install lxml
+pip install forex_python
  ```
 
 # User Manual
@@ -27,6 +28,8 @@ The ex rate coulmn is automatically updated with the python script. it will only
 the ex change column should also be filled with 0 if you have made a new row, otherwise it will also update automatically.
 
 for convenience i recommend simply runnig the `./run.sh` script, this will run the python script and then launch the money.xml file with gnumeric
+
+the update_money.py script expects two arguments, the working directory and the xml file name, in run.sh the current directory is used.
 
 ![screenshot](screen.jpg)
 

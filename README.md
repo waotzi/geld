@@ -68,3 +68,17 @@ sum up your catagorized crypto asset values
 
 
 
+# plot tool
+There is also a simple plot python script
+```
+./plot litecoin usd 10
+```
+![litecoin ploted](screen2.png)
+
+make sure plot is executable and that you have matplotlib installed
+```
+pip install matplotlib
+```
+The first parameter is the coingecko coin id, the second is what to compare it with and the third is how many days the plot should display.
+The script will automatically fetch the data from coingecko and plot it with matplotlib
+

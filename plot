@@ -40,8 +40,16 @@ plt.yscale('log')
 plt.xlabel('time')
 plt.ylabel(coin)
 
-ax.yaxis.set_major_formatter(StrMethodFormatter('{x:.0f}'))
-ax.yaxis.set_minor_formatter(StrMethodFormatter('{x:.0f}'))
+min_y = min(y)
+sf = int(f'{min_y:e}'.split('e')[-1])
+if sf < 0:
+   sf = abs(sf)
+   sf += 1
+else:
+   sf = 0
+
+ax.yaxis.set_major_formatter(StrMethodFormatter('{x:.' + str(sf) + 'f}'))
+ax.yaxis.set_minor_formatter(StrMethodFormatter('{x:.' + str(sf) + 'f}'))
 
 if int(days) <= 2:
    formatter = DateFormatter('%H:%M')

@@ -1,7 +1,7 @@
 The BSD Zero Clause License (0BSD)
 =====================
 
-Copyright (c) 2022 Aruga
+Copyright (c) 2022 waotzi
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted.
